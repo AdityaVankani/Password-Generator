@@ -1,7 +1,5 @@
 import { useState, useEffect, useCallback, useRef } from 'react'
 
-import './App.css'
-
 function App() {
   const [len, setlen] = useState(8)
   const [numallow, setnumallow] = useState(false)
